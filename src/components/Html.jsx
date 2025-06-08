@@ -4,13 +4,14 @@ function Html() {
   return (
     <div>
         <h1>Html Complete Notes</h1>
-        {/* <h1>What is Html</h1>
+        <h5>Definition: html is a hypertext markup language which is used to make web pages</h5>
+        <h1>What is Html</h1>
         <p>Html is <span style={{
             color:'blue'
         }}>"Stands for Hyper Text Markup Language"</span></p>
         <p>Which is used to create websites and webpages</p>
-        <p>It  is the backbone of websites</p> */}
-        <div>
+        <p>It  is the backbone of websites</p>
+        {/* <div>
           <nav style={{
             display:'flex',
             flexDirection:'column',
@@ -21,7 +22,7 @@ function Html() {
             <a href=''>Elements</a>
             <a href=''>Tags</a>
           </nav>
-        </div>
+        </div> */}
         <div>
 
         </div>
