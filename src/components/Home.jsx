@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css'; // Import CSS file
+import './Home.css'; 
 
 function Home() {
     return (
+        <div>
         <div className="full-bg">
             <h1>Welcome to Techsimplified</h1>
             <nav>
@@ -25,6 +26,10 @@ function Home() {
                 <Link to="/git" className="nav-link">GIT</Link>
                 <Link to="/excel" className="nav-link">EXCEL</Link>
             </nav>
+           
+        </div>
+        
+        
         </div>
     );
 }
