@@ -1,0 +1,19 @@
+.full-bg {
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
